@@ -28,7 +28,6 @@ def get_table(t):
 def hello_world():
     to_return = {}
     to_return["cars"] = get_table("cars")
-    to_return["log"] = get_table("log")
 
     return json.dumps(to_return)
 
