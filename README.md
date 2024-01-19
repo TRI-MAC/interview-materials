@@ -6,8 +6,8 @@ Your goal is to build a simple fullstack web UI that accomplishes some basic tas
 - Retrieves data from the DB.
 - Allows users to page through each car in a slider, carosel, or other type of view. Your UI should show at least the photo and name of each car.
 - Logs user interactions (e.g., car views) to a new `log` table that you will create on the backend. Please feel free to use the basic mysql command-line to do this. E.g.:
--- `% mysql -u root`
--- `% mysql> use test;` (to select the test database)
+    - `% mysql -u root`
+    - `% mysql> use test;` (to select the test database)
 
 Note that while we have provided you a basic Flask application, you can actually build with whatever stack you want! The VM that your hiring contact provided you is yours to configure (don't worry about containerization: we've archived the base image of this server). Please feel free to rewrite the server in your preferred framework. The same goes with the web UI: Choose any framework you like (or code in vanilla HTML/JS). Please also feel free to define the `log` table schema however you would like.
 
