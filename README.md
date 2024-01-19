@@ -8,8 +8,9 @@ Your goal is to build a simple fullstack web UI that accomplishes some basic tas
 - Logs user interactions (e.g., car views) to a new `log` table that you will create on the backend. Please feel free to use the basic mysql command-line to do this. E.g.:
     - `% mysql -u root`
     - `% mysql> use test;` (to select the `test` database)
+    - `% mysql> ...` (your commands here!)
 
-Note that while we have provided you a basic Flask application, you can actually build with whatever stack you want! The VM that your hiring contact provided you is yours to configure (don't worry about containerization: we've archived the base image of this server). Please feel free to rewrite the server in your preferred framework. The same goes with the web UI: Choose any framework you like (or code in vanilla HTML/JS). Please also feel free to define the `log` table schema however you would like.
+Note that while we have provided you a basic Flask application, you can actually build with whatever stack you want! The VM that your hiring contact provided you is yours to configure (don't worry about containerization: we've archived the base image of this server). Please feel free to rewrite the server in your preferred framework. The same goes with the web UI: Choose any framework you like (or code in vanilla HTML/JS). Please also feel free to define the `log` table schema however you would like. Please also feel free to alter the cars table.
 
 If you've done that and want to extend the app further, here are some possibilities. We will only evaluate at most one of these--please don't spend time doing any more than that!
 
